@@ -20,6 +20,8 @@ InputBuffer *new_input_buffer()
     return input_buffer;
 }
 
+void print_prompt() { printf("db > "); }
+
 int main(int argc, char *argv[])
 {
     InputBuffer *input_buffer = new_input_buffer();
